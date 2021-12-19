@@ -617,8 +617,6 @@
 			<Children>
 				<Template src="skin:templates/longwaves/longwaves_module.xml"><SetVariable name="audiochannel">1</SetVariable></Template>
 				<Template src="skin:templates/longwaves/longwaves_module.xml"><SetVariable name="audiochannel">2</SetVariable></Template>
-				<Template src="skin:templates/longwaves/longwaves_module.xml"><SetVariable name="audiochannel">3</SetVariable></Template>
-				<Template src="skin:templates/longwaves/longwaves_module.xml"><SetVariable name="audiochannel">4</SetVariable></Template>
 
 				<!-- <Overview>
                         <Group>[PreviewDeck1]</Group>
