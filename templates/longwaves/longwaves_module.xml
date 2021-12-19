@@ -15,8 +15,8 @@
 		<WidgetGroup>
 		<Tooltip>Wave <Variable name="audiochannel"/></Tooltip><!-- Tooltip -->
 		<ObjectName>LongWave</ObjectName>
-		<MinimumSize>-1,20</MinimumSize>
-		<MaximumSize>-1,20</MaximumSize>
+		<MinimumSize>-1,19</MinimumSize>
+		<MaximumSize>-1,19</MaximumSize>
 		<SizePolicy>me,f</SizePolicy>
 		<Layout>horizontal</Layout>
 		<Children>

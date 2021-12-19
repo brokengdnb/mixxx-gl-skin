@@ -574,11 +574,17 @@
 	<ObjectName>Mixxx</ObjectName>
 	<Background><BgColor>#000000</BgColor></Background>
 	<Style src="skin:styles.qss"/> <!-- Including the QT styles file -->
-	<MinimumSize>1024,720</MinimumSize>
+	<MinimumSize>1024,560</MinimumSize>
 	<SizePolicy>me,me</SizePolicy>
 	<Layout>vertical</Layout>
 	<!-- STARTS - ALL THE LAYOUT: -->
 	<Children>
+
+
+
+		ROW: Your logo goes here. The variable "mylogo" could be set to: "1", "2", "3", "4", "5", etc, etc... -->
+		<!-- Just set the variable to the number of the "logo_x.svg" file that you intend to be displayed -->
+		<Template src="skin:templates/logo/start.xml"><SetVariable name="mylogo">0</SetVariable></Template>
 
 
 
@@ -613,10 +619,6 @@
 				<Template src="skin:templates/longwaves/longwaves_module.xml"><SetVariable name="audiochannel">2</SetVariable></Template>
 				<Template src="skin:templates/longwaves/longwaves_module.xml"><SetVariable name="audiochannel">3</SetVariable></Template>
 				<Template src="skin:templates/longwaves/longwaves_module.xml"><SetVariable name="audiochannel">4</SetVariable></Template>
-
-
-
-
 
 				<!-- <Overview>
                         <Group>[PreviewDeck1]</Group>
@@ -661,19 +663,8 @@
 	<!-- ROW: Show/Hide Racks buttons 
 
  <Template src="skin:templates/strobes/start.xml"><SetVariable name="strobetype">1</SetVariable></Template>-->
-	<!-- <Template src="skin:templates/toolbar/start.xml"></Template>
+	<!-- <Template src="skin:templates/toolbar/start.xml"></Template>-->
 
-
-
-	ROW: Your logo goes here. The variable "mylogo" could be set to: "1", "2", "3", "4", "5", etc, etc... -->
-	<!-- Just set the variable to the number of the "logo_x.svg" file that you intend to be displayed -->
-    <Template src="skin:templates/logo/start.xml"><SetVariable name="mylogo">0</SetVariable></Template>
-	
-
-
-
-
-	<!-- ROWS: HIFI - Contains all the needed rows to hide, when maximizing the library -->
 	<WidgetGroup>
 	<ObjectName>bigdecks</ObjectName>
     <Layout>vertical</Layout>
