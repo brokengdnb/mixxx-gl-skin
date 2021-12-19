@@ -5,8 +5,8 @@
 
 		<WidgetGroup>
 		<ObjectName>LongWaveRack</ObjectName>
-		<MinimumSize>-1,30</MinimumSize>
-		<MaximumSize>-1,30</MaximumSize>
+		<MinimumSize>-1,20</MinimumSize>
+		<MaximumSize>-1,20</MaximumSize>
 		<SizePolicy>me,f</SizePolicy>
 		<Layout>vertical</Layout>
 		<Children>
@@ -15,8 +15,8 @@
 		<WidgetGroup>
 		<Tooltip>Wave <Variable name="audiochannel"/></Tooltip><!-- Tooltip -->
 		<ObjectName>LongWave</ObjectName>
-		<MinimumSize>-1,29</MinimumSize>
-		<MaximumSize>-1,29</MaximumSize>
+		<MinimumSize>-1,20</MinimumSize>
+		<MaximumSize>-1,20</MaximumSize>
 		<SizePolicy>me,f</SizePolicy>
 		<Layout>horizontal</Layout>
 		<Children>
